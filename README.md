@@ -30,6 +30,8 @@ This project is ideal for learners who want hands-on experience with relational 
 ---
 
 ## 📂 Project Structure
+### Database Schema
+![Database Schema](./MusicDatabaseSchema.png)
 
 ### 1. Database Setup
 
@@ -185,8 +187,6 @@ WHERE first_name IS NULL
    OR last_name IS NULL 
    OR email IS NULL;
 ```
-
-You may also convert incorrectly stored numeric fields (e.g., `unit_price`, `quantity`) into proper numeric types for analysis.
 
 ---
 
